@@ -43,9 +43,11 @@ TERMINAL BASH
 38 rm courses_test.csv
 39 ls
 40 ls
-41 pg_dump --help```  
+41 pg_dump --help
+```  
    
-TERMINAL PSQL  
+TERMINAL PSQL
+``` 
   TRUNCATE majors;  
   TRUNCATE majors, students, majors_courses;  
   ./insert_data.sh  
@@ -65,7 +67,7 @@ TERMINAL PSQL
   \c  
   \s  
   \q  
-
+``` 
   ##Tutorial 2  
   TERMINAL BASH  
  ```1  echo hello SQL  
