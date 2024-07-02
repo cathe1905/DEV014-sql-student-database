@@ -45,23 +45,77 @@ TERMINAL BASH
    41  pg_dump --help  
    
 TERMINAL PSQL  
-    TRUNCATE majors;
-  TRUNCATE majors, students, majors_courses;
-  ./insert_data.sh
-  SELECT * FROM courses;
-  SELECT * FROM courses;
-  SELECT * FROM majors;
-  SELECT * FROM courses;
-  SELECT * FROM majors_courses;
-  \d students
-  SELECT * FROM students;
-  SELECT * FROM students;
-  SELECT * FROM majors;
-  SELECT * FROM courses;
-  SELECT * FROM majors_courses;
-  ls
-  history
-  \c
-  \s
-  \q
+  TRUNCATE majors;  
+  TRUNCATE majors, students, majors_courses;  
+  ./insert_data.sh  
+  SELECT * FROM courses;  
+  SELECT * FROM courses;  
+  SELECT * FROM majors;  
+  SELECT * FROM courses;  
+  SELECT * FROM majors_courses;  
+  \d students  
+  SELECT * FROM students;  
+  SELECT * FROM students;  
+  SELECT * FROM majors;  
+  SELECT * FROM courses;  
+  SELECT * FROM majors_courses;  
+  ls  
+  history  
+  \c  
+  \s  
+  \q  
+
+  ##Tutorial 2  
+  TERMINAL BASH  
+  	1  echo hello SQL  
+	2  psql -U postgres < students.sql  
+	3  touch student_info.sh  
+	4  chmod +x student_info.sh  
+	5  ./student_info.sh  
+	6  ./student_info.sh  
+	7  ./student_info.sh  
+	8  ./student_info.sh  
+	9  history  
+     10 psql -U postgres < students.sql
+11 touch student_info.sh
+12 chmod +x student_info.sh
+13 ./student_info.sh
+14 ./student_info.sh
+15 ./student_info.sh
+16 ./student_info.sh
+17 history
+18 psql --username=freecodecamp --dbname=postgres
+19 history
+20 cat ~/.psql_history
+21 ./student_info.sh
+22 ./student_info.sh
+23 ./student_info.sh
+24 history
+```10 echo hello SQL
+11 psql -U postgres < students.sql
+12 touch student_info.sh
+13 chmod +x student_info.sh
+14 ./student_info.sh
+15 ./student_info.sh
+16 ./student_info.sh
+17 ./student_info.sh
+18 history
+19 psql --username=freecodecamp --dbname=postgres
+20 history
+21 cat ~/.psql_history
+22 ./student_info.sh
+23 ./student_info.sh
+24 ./student_info.sh
+25 psql --username=freecodecamp --dbname=postgres
+26 cat ~/.psql_history
+27 history
+28 \c students
+29 ./student_info.sh
+30 ./student_info.sh
+31 ./student_info.sh
+32 ./student_info.sh
+33 ./student_info.sh
+34 history```
+
+  
 
