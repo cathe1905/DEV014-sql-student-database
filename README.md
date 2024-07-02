@@ -1,8 +1,9 @@
 # Student Database
 
 ## Tutorial 1
-TERMINAL BASH  
-```1 echo hello SQL
+TERMINAL BASH 
+```
+1 echo hello SQL
 2 psql --username-freecodecamp --dbname-postgres
 3 psql --help
 4 psql --catherin-freecodecamp --dbstudents-postgres
