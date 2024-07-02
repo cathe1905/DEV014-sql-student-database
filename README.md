@@ -2,7 +2,7 @@
 
 ## Tutorial 1
 TERMINAL BASH  
-    1  echo hello SQL  
+    ```1  echo hello SQL  
     2  psql --username-freecodecamp --dbname-postgres  
     3  psql --help  
     4  psql --catherin-freecodecamp --dbstudents-postgres  
@@ -42,7 +42,7 @@ TERMINAL BASH
    38  rm courses_test.csv  
    39  ls  
    40  ls  
-   41  pg_dump --help  
+   41  pg_dump --help```  
    
 TERMINAL PSQL  
   TRUNCATE majors;  
