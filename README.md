@@ -69,8 +69,10 @@ TERMINAL PSQL
   \q  
 ``` 
   ##Tutorial 2  
+  
   TERMINAL BASH  
- ```1  echo hello SQL  
+``` 
+1  echo hello SQL  
 2  psql -U postgres < students.sql  
 3  touch student_info.sh  
 4  chmod +x student_info.sh  
@@ -87,22 +89,6 @@ TERMINAL PSQL
 15 ./student_info.sh
 16 ./student_info.sh
 17 history
-18 psql --username=freecodecamp --dbname=postgres
-19 history
-20 cat ~/.psql_history
-21 ./student_info.sh
-22 ./student_info.sh
-23 ./student_info.sh
-24 history
-```10 echo hello SQL
-11 psql -U postgres < students.sql
-12 touch student_info.sh
-13 chmod +x student_info.sh
-14 ./student_info.sh
-15 ./student_info.sh
-16 ./student_info.sh
-17 ./student_info.sh
-18 history
 19 psql --username=freecodecamp --dbname=postgres
 20 history
 21 cat ~/.psql_history
@@ -118,7 +104,8 @@ TERMINAL PSQL
 31 ./student_info.sh
 32 ./student_info.sh
 33 ./student_info.sh
-34 history```
+34 history
+``` 
 
   
 
