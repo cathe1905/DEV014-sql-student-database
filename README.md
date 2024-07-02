@@ -45,7 +45,7 @@ TERMINAL BASH
    41  pg_dump --help  
    
 TERMINAL PSQL  
-  TRUNCATE majors;
+    TRUNCATE majors;
   TRUNCATE majors, students, majors_courses;
   ./insert_data.sh
   SELECT * FROM courses;
@@ -64,8 +64,4 @@ TERMINAL PSQL
   \c
   \s
   \q
-
-
-## Tutorial 2  
-
 
