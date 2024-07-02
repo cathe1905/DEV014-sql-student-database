@@ -67,7 +67,7 @@ TERMINAL PSQL
 
   ##Tutorial 2  
   TERMINAL BASH  
-  	1  echo hello SQL  
+  	```1  echo hello SQL  
 	2  psql -U postgres < students.sql  
 	3  touch student_info.sh  
 	4  chmod +x student_info.sh  
