@@ -43,6 +43,27 @@ TERMINAL BASH
    39  ls  
    40  ls  
    41  pg_dump --help  
+   
+TERMINAL PSQL  
+  TRUNCATE majors;
+  TRUNCATE majors, students, majors_courses;
+  ./insert_data.sh
+  SELECT * FROM courses;
+  SELECT * FROM courses;
+  SELECT * FROM majors;
+  SELECT * FROM courses;
+  SELECT * FROM majors_courses;
+  \d students
+  SELECT * FROM students;
+  SELECT * FROM students;
+  SELECT * FROM majors;
+  SELECT * FROM courses;
+  SELECT * FROM majors_courses;
+  ls
+  history
+  \c
+  \s
+  \q
 
 
 ## Tutorial 2  
